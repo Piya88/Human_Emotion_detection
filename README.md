@@ -1,6 +1,6 @@
 # Human_Emotion_detection
 
-In this project I have created Convolutional Neural Network model to detect human emotion recognition using pre-trained model EfficentNet model and Opencv to detect human faces from video/image inputs.
+In this project I have created Convolutional Neural Network model to detect human emotions using pre-trained model (EfficentNet V2M) and Opencv to detect human faces from video/image inputs using haarcascade classifier.
 
 https://github.com/Piya88/Human_Emotion_detection/assets/137636789/399d726e-43df-49c0-ba9a-8acb82d5f8c7
 
@@ -9,7 +9,7 @@ https://github.com/Piya88/Human_Emotion_detection/assets/137636789/399d726e-43df
 I have created humman emotion detection model which will predict - 'Angry', 'disgusted', 'fearful', 'Happy','Neutral','Sad','Surprise' emotions of human.
 For this I have used emotion detection kaggle dataset - https://www.kaggle.com/datasets/ananthu017/emotion-detection-fer to train CNN model.
 For CNN model architecture I have used transfer learning model EfficientNet V2M. I have fine tuned model to get best accuracy on train, validation and test model.
-I have saved model weights for future prediction.
+I have saved model weights for future prediction using keras.
 
 
 # Opencv library:
